@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+#game {
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+}
+
+canvas {
+    border: 1px solid #000000;
+}
+
+#sidebar {
+    margin-left: 10px;
+}
+
+#sidebar canvas {
+    margin-bottom: 5px;
+}
+
+#controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#controls button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
